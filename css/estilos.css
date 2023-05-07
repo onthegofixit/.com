@@ -1004,6 +1004,7 @@ h1{
 
     .subtitle{
         font-size: 1rem;
+        padding: 0;
     }
 
     .price__element{
