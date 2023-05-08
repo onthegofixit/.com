@@ -1070,6 +1070,12 @@ h1{
 /* Media queries */
 
 @media (max-width:800px){
+    
+    .carrusel .diagnostic_items {
+        margin: -14px -273px;
+        width: 260%;
+        text-align: center;
+    }
 
     .about__paragraphp {
         display: none;
