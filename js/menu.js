@@ -1,7 +1,9 @@
 (function () {
     const openButton = document.querySelector('.nav__menu');
     const menu = document.querySelector('.nav__link');
+    const navItems = document.getElementsByClassName("nav__items");
     const closeMenu = document.querySelector('.nav__close');
+    
 
     const params = new URLSearchParams(window.location.search)
 
@@ -23,6 +25,12 @@
         menu.classList.remove('nav__link--show');
         
     });
+
+    for (const item of navItems) {
+        item.addEventListener("click", () => {
+            menu.classList.remove("nav__link--show");
+        });
+    }
 
     
 
