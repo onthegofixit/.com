@@ -161,7 +161,7 @@ nav a:hover{
 
 .hero__container{
     
-    height: 580px;
+    height: 535px;
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
@@ -525,7 +525,7 @@ h1{
     
     font-weight: 400;
     text-align: center;
-    padding: 20px 0px;
+    padding: 0px 0px;
     font-size: 40px;
     
 }
@@ -1027,6 +1027,88 @@ h1{
 /* Media queries */
 
 @media (max-width:800px){
+
+    
+
+    .carousel h1 {
+        margin: -79px -14px;
+        height: 254px;
+        font-weight: 600;
+        color: #09b617;
+        margin-left: -1px;
+    }
+
+    .logocontact {
+        padding: 0px;
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .contact-info {
+        font-size: 11px
+    }
+
+    .next {
+        margin: 1px;
+        display: block;
+        background: #292929;
+        color: #fff;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    .nav__img {
+        margin-right: 9px;
+        display: block;
+    }
+
+    .nav__logo {
+        margin-left: -12px;
+        font-size: 20px;
+    }
+
+   
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+        width: 90%;
+        margin: 45px 17px;
+        grid-gap: 30px;
+        padding: 2px;
+        overflow: hidden;
+
+    }
+
+    .knowledge__paragraph {
+        line-height: 1,7;
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: rgb(11, 11, 15);
+
+    }
+
+    .h1.subtitle{
+        font-size: 5px;
+    }
+
+    .carrusel{
+        margin: 17px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(97px, 1fr));
+        grid-gap: 0;
+        padding: 5px;
+
+
+    }
+
+    .carousel h1{
+        font-size: 5px;
+    }
+
     .nav__menu{
         display: block;
     }
@@ -1139,6 +1221,12 @@ h1{
 }
 
 @media (max-width: 600px){
+
+    
+
+    .subtitle{
+        margin: 20px;
+    }
     .hero__title{
         font-size: 2rem;
     }
