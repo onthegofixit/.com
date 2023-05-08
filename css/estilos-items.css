@@ -105,7 +105,7 @@ body{
    height: 90vh !important;
    background-image: linear-gradient(200deg, #071a1f8c 100%,  #2e6443c0 100% ), url('../images/imgitems2.png') ;
    background-size: cover;
-   clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 84% 88%, 73% 98%, 61% 88%, 0 88%);
+   clip-path: polygon(0 0, 100% 0, 100% 90%, 13% 100%, 0 95%);
    z-index: -1;
    
 }
