@@ -304,7 +304,7 @@ h1{
     
     font-weight: 400;
     text-align: center;
-    padding: 20px 0px;
+    padding: 0px 0px;
     font-size: 40px;
     
 }
@@ -367,7 +367,7 @@ h1{
 }
 
 .carousel h1{
-    padding: 5% 1;
+    padding: 10% 10;
     font-weight: 800;
     color: #09b617;
 }
@@ -569,8 +569,8 @@ h1{
     
     font-weight: 400;
     text-align: center;
-    padding: 20px 0px;
-    font-size: 40px;
+    padding: 0px 0px;
+    font-size: 10px;
     
 }
 
@@ -1070,8 +1070,50 @@ h1{
 /* Media queries */
 
 @media (max-width:800px){
+
+    .about__paragraphp {
+        display: none;
+    }
+
+    .logocontact {
+        margin: 18px 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .contact-info {
+        font-size: 11px
+    }
+
+    .hero__container {
+        height: 580px;
+        display: grid;
+        grid-auto-rows: max-content;
+        align-content: center;
+        gap: 1em;
+        padding-bottom: 180px;
+        text-align: center;
+    }
+
+    .carrusel {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(109px, 1fr));
+        width: 100%;
+        margin: 26px;
+        grid-gap: -20px;
+        padding: 13px;
+        overflow: hidden;
+    }
     .nav__menu{
+        margin-right: -20px;
         display: block;
+    }
+
+    .nav__logo {
+        margin-left: -12px;
+        font-size: 20px;
     }
 
     .nav__link--menu{
@@ -1191,6 +1233,7 @@ h1{
     }
 
     .subtitle{
+        margin: 7px 11px;
         font-size: 1rem;
     }
 
